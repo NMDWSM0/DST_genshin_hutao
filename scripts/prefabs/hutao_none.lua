@@ -10,11 +10,11 @@ local skins =
 	ghost_skin = "ghost_raiden_build",
 }
 
-local base_prefab = "raiden_shogun"
+local base_prefab = "hutao"
 
-local tags = {"BASE", "RAIDEN_SHOGUN", "CHARACTER"}
+local tags = {"BASE", "HUTAO", "CHARACTER"}
 
-return CreatePrefabSkin("raiden_shogun_none",
+return CreatePrefabSkin("hutao_none",
 {
 	base_prefab = base_prefab,
 	skins = skins,
