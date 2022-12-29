@@ -19,7 +19,7 @@ PrefabFiles = {
     
 
     --其它物品
-    
+    -- "crown_of_insight",
 
     --蓝图
     
@@ -43,20 +43,6 @@ Assets = {
 
 --------------------------------------------------------------------
     --制作
-    Asset( "IMAGE", "images/inventoryimages/book_firepit.tex" ),
-    Asset( "ATLAS", "images/inventoryimages/book_firepit.xml" ),
-
-    Asset( "IMAGE", "images/inventoryimages/book_cookpot.tex" ),
-    Asset( "ATLAS", "images/inventoryimages/book_cookpot.xml" ),
-
-    Asset( "IMAGE", "images/inventoryimages/book_spicer.tex" ),
-    Asset( "ATLAS", "images/inventoryimages/book_spicer.xml" ),
-
-    Asset( "IMAGE", "images/inventoryimages/amakumo_fruit.tex" ),
-    Asset( "ATLAS", "images/inventoryimages/amakumo_fruit.xml" ),
-
-    Asset( "IMAGE", "images/inventoryimages/ako_sake_vessel.tex" ),
-    Asset( "ATLAS", "images/inventoryimages/ako_sake_vessel.xml" ),
 
     Asset( "IMAGE", "images/inventoryimages/crown_of_insight.tex" ),
     Asset( "ATLAS", "images/inventoryimages/crown_of_insight.xml" ),
@@ -71,35 +57,35 @@ Assets = {
 
 --------------------------------------------------------------------
     --
-    Asset( "IMAGE", "images/saveslot_portraits/raiden_shogun.tex" ),
-    Asset( "ATLAS", "images/saveslot_portraits/raiden_shogun.xml" ),
+    Asset( "IMAGE", "images/saveslot_portraits/hutao.tex" ),
+    Asset( "ATLAS", "images/saveslot_portraits/hutao.xml" ),
 
-    Asset( "IMAGE", "images/selectscreen_portraits/raiden_shogun.tex" ),
-    Asset( "ATLAS", "images/selectscreen_portraits/raiden_shogun.xml" ),
+    Asset( "IMAGE", "images/selectscreen_portraits/hutao.tex" ),
+    Asset( "ATLAS", "images/selectscreen_portraits/hutao.xml" ),
 	
-    Asset( "IMAGE", "images/selectscreen_portraits/raiden_shogun_silho.tex" ),
-    Asset( "ATLAS", "images/selectscreen_portraits/raiden_shogun_silho.xml" ),
+    Asset( "IMAGE", "images/selectscreen_portraits/hutao_silho.tex" ),
+    Asset( "ATLAS", "images/selectscreen_portraits/hutao_silho.xml" ),
 
-    Asset( "IMAGE", "bigportraits/raiden_shogun.tex" ),
-    Asset( "ATLAS", "bigportraits/raiden_shogun.xml" ),
+    Asset( "IMAGE", "bigportraits/hutao.tex" ),
+    Asset( "ATLAS", "bigportraits/hutao.xml" ),
 	
-	Asset( "IMAGE", "images/map_icons/raiden_shogun.tex" ),
-	Asset( "ATLAS", "images/map_icons/raiden_shogun.xml" ),
+	Asset( "IMAGE", "images/map_icons/hutao.tex" ),
+	Asset( "ATLAS", "images/map_icons/hutao.xml" ),
 	
-	Asset( "IMAGE", "images/avatars/avatar_raiden_shogun.tex" ),
-    Asset( "ATLAS", "images/avatars/avatar_raiden_shogun.xml" ),
+	Asset( "IMAGE", "images/avatars/avatar_hutao.tex" ),
+    Asset( "ATLAS", "images/avatars/avatar_hutao.xml" ),
 	
-	Asset( "IMAGE", "images/avatars/avatar_ghost_raiden_shogun.tex" ),
-    Asset( "ATLAS", "images/avatars/avatar_ghost_raiden_shogun.xml" ),
+	Asset( "IMAGE", "images/avatars/avatar_ghost_hutao.tex" ),
+    Asset( "ATLAS", "images/avatars/avatar_ghost_hutao.xml" ),
 
-    Asset( "IMAGE", "images/avatars/self_inspect_raiden_shogun.tex" ), 
-    Asset( "ATLAS", "images/avatars/self_inspect_raiden_shogun.xml" ),
+    Asset( "IMAGE", "images/avatars/self_inspect_hutao.tex" ), 
+    Asset( "ATLAS", "images/avatars/self_inspect_hutao.xml" ),
 	
-	Asset( "IMAGE", "bigportraits/raiden_shogun_none.tex" ),
-    Asset( "ATLAS", "bigportraits/raiden_shogun_none.xml" ),
+	Asset( "IMAGE", "bigportraits/hutao_none.tex" ),
+    Asset( "ATLAS", "bigportraits/hutao_none.xml" ),
 	
-	Asset( "IMAGE", "images/names_raiden_shogun.tex" ),
-    Asset( "ATLAS", "images/names_raiden_shogun.xml" ),
+	Asset( "IMAGE", "images/names_hutao.tex" ),
+    Asset( "ATLAS", "images/names_hutao.xml" ),
 ---------------------------------------------------------------
 --有关技能图标
     Asset( "IMAGE", "images/ui/eleskill_hutao.tex" ),
@@ -277,12 +263,12 @@ TUNING.HUTAOSKILL_ELEBURST_SORT =
 
 TUNING.HUTAO_CONSTELLATION_POSITION = 
 {
-    {0, -312},
-    {264, -150},
-    {264, 110},
-    {0, 280},
-    {-264, 110},
-    {-264, -155},
+    {-113, 270},
+    {232, 268},
+    {-146, -116},
+    {151, -170},
+    {86, -338},
+    {235, -350},
 }
 
 require("recipe")
@@ -377,7 +363,7 @@ STRINGS.CHARACTER_SURVIVABILITY.hutao = TUNING.LANGUAGE_GENSHIN_HUTAO == "sc" an
 
 --------------------------------------------------------------------------
 --添加角色
-AddMinimapAtlas("images/map_icons/raiden_shogun.xml")
+AddMinimapAtlas("images/map_icons/hutao.xml")
 
 AddModCharacter("hutao", "FEMALE")
 

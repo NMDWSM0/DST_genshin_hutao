@@ -318,7 +318,7 @@ local common_postinit = function(inst)
 	----------------------------------------------------------------------------
 	inst.chargesgname = ChargeSGFn
 
-	-- inst:DoPeriodicTask(0, function(inst) inst.AnimState:Show("HAIR_HAT") end)
+	inst:DoPeriodicTask(0, function(inst) inst.AnimState:Show("HAIR_HAT") end)
 end
 
 local master_postinit = function(inst)

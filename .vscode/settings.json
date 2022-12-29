@@ -2,5 +2,8 @@
     "Lua.diagnostics.disable": [
         "undefined-global",
         "redefined-local"
+    ],
+    "Lua.diagnostics.globals": [
+        "bugtracker_config"
     ]
 }
