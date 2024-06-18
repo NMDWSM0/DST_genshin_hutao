@@ -25,7 +25,7 @@ PrefabFiles = {
     
 
     --技能召唤物
-    
+    "hutao_blood_blossom",  --血梅香
 
     --特效
     
@@ -182,11 +182,13 @@ TUNING.HUTAO_UISCALE = TUNING.GENSHINCORE_UISCALE or 1
 
 --------------------------------------
 --人物参数
-TUNING.HUTAO_BASEATK = 5
+TUNING.HUTAO_BASEATK = 10.7
 
-TUNING.HUTAO_HEALTH = 225
+TUNING.HUTAO_HEALTH = 200
 TUNING.HUTAO_HUNGER = 150
 TUNING.HUTAO_SANITY = 150
+
+TUNING.HUTAO_PAPILIO_ATTACKRANGE = 3
 
 --------------------------------------
 --厨艺经验
@@ -212,12 +214,12 @@ TUNING.HUTAOSKILL_NORMALATK =
 TUNING.HUTAOSKILL_ELESKILL = 
 {
     CD = 16,
-    DURATION = 9,
+    DURATION = 10,
     HP_COST = 0.3,
     BLD_BLSM_DURATION = 8,
     --LEVEL           1      2      3      4      5      6      7      8      9      10     11     12     13     14     15
     BLD_BLSM_DMG =   {0.640, 0.688, 0.736, 0.800, 0.848, 0.896, 0.960, 1.024, 1.088, 1.152, 1.216, 1.280, 1.360, 1.440, 1.520},
-    ATK_INCREASE =   {0.0384,0.0407,0.043, 0.046, 0.0483,0.0506,0.0536,0.0566,0.0596,0.0626,0.0656,0.0685,0.0715,0.0745,0.0775},
+    ATK_INCREASE =   {0.384, 0.407, 0.430, 0.460, 0.483, 0.506, 0.536, 0.566, 0.596, 0.626, 0.656, 0.685, 0.715, 0.745, 0.775},
 }
 
 TUNING.HUTAOSKILL_ELEBURST = 
@@ -317,7 +319,7 @@ modimport("scripts/import/hutaoui_postconstruct.lua")
 ----------------------------------------------------
 ----------------------- SG -------------------------
 
--- modimport("scripts/import/raiden_sg.lua")
+modimport("scripts/import/hutao_sg.lua")
 
 modimport("scripts/import/eventhandler_yawn_postinit")
 
@@ -340,7 +342,7 @@ modimport("scripts/import/cursable_postinit.lua")
 
 -- modimport("scripts/import/regrowthmanager_postinit.lua")
 
--- modimport("scripts/import/moonbase_postinit.lua")
+modimport("scripts/import/hutao_health_postinit.lua")
 
 modimport("scripts/import/crownloot_prefabpostinit.lua")
 

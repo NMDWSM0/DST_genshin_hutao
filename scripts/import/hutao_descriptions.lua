@@ -61,7 +61,7 @@ if TUNING.LANGUAGE_GENSHIN_HUTAO == "sc" then
         },
         content = {
             "处于蝶引来生施加的彼岸蝶舞状态下时，胡桃的重击没有次数上限。",
-            "血梅香造成的伤害提高，提高值相当于效果附加时胡桃生命值上限的10%。\n此外，安神秘法会为命中的敌人施加血梅香效果。",
+            "血梅香造成的伤害提高，提高值相当于效果附加时胡桃生命值上限的100%。\n此外，安神秘法会为命中的敌人施加血梅香效果。",
             "蝶引来生的技能等级提升3级。\n至多提升至15级。",
             "处于胡桃自己施加的血梅香状态影响下的敌人被击败时，附近的队伍中所有角色的暴击率提高12%，持续15秒。",
             "安神秘法的技能等级提升3级。\n至多提升至15级。",
@@ -88,7 +88,7 @@ if TUNING.LANGUAGE_GENSHIN_HUTAO == "sc" then
             {
                 {str = "只有永不间断的烈焰可以洗净世间的不净之物。\n胡桃消耗一部分生命值，击退周围敌人，进入彼岸蝶舞状态。", title = false},
                 {str = "彼岸蝶舞", title = true},
-                {str = "·基于进入该状态时胡桃的生命值上限，提高胡桃的攻击力。通过这种方式获得的攻击力提升，不能超过胡桃基础攻击力的400%；\n·将攻击伤害转为火元素伤害，该元素转化无法被附魔覆盖；\n·重击会为命中的敌人施加血梅香效果；\n·提高胡桃的抗打断能力。", title = false},
+                {str = "·基于进入该状态时胡桃的生命值上限，提高胡桃的攻击力。通过这种方式获得的攻击力提升，不能超过胡桃基础攻击力的500%；\n·将攻击伤害转为火元素伤害，该元素转化无法被附魔覆盖；\n·重击会为命中的敌人施加血梅香效果；\n·提高胡桃的抗打断能力。", title = false},
                 {str = "血梅香", title = true},
                 {str = "处于血梅香状态下的敌人，每4秒会受到一次火元素伤害。这个伤害视为元素战技伤害。\n同一个目标身上只能存在一个血梅香效果，且只能被胡桃自己刷新持续时间。\n\n彼岸蝶舞将在持续时间结束、胡桃下场或倒下时解除。", title = false},
             },
@@ -341,7 +341,7 @@ else
             {
                 {str = "Only an unwavering flame can cleanse the impurities of this world.\nHu Tao consumes a set portion of her HP to knock the surrounding enemies back and enter the Paramita Papilio state.", title = false},
                 {str = "Paramita Papilio", title = true},
-                {str = "·Increases Hu Tao’s ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao’s Base ATK.\n·Converts attack DMG to Pyro DMG, which cannot be overridden by any other elemental infusion.\n·Charged Attacks apply the Blood Blossom effect to the enemies hit.\n·Increases Hu Tao’s resistance to interruption.", title = false},
+                {str = "·Increases Hu Tao’s ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 500% of Hu Tao’s Base ATK.\n·Converts attack DMG to Pyro DMG, which cannot be overridden by any other elemental infusion.\n·Charged Attacks apply the Blood Blossom effect to the enemies hit.\n·Increases Hu Tao’s resistance to interruption.", title = false},
                 {str = "Blood Blossom", title = true},
                 {str = "Enemies affected by Blood Blossom will take Pyro DMG every 4s. This DMG is considered Elemental Skill DMG.\nEach enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.\n\nParamita Papilio ends when its duration is over, or Hu Tao has left the battlefield or fallen.", title = false},
             },

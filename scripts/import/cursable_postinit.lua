@@ -3,7 +3,7 @@ AddComponentPostInit("cursable", function (self)
 
     function self:IsCursable(item)
         local inst = self.inst
-        if inst.sg and inst.sg:HasStateTag("nocurse") then
+        if inst.sg and inst.sg:HasStateTag("nocurse") or inst:HasTag("nohitanim") or inst:HasTag("shielded") then
             return false
         end
         return old_IsCursable(self, item)
